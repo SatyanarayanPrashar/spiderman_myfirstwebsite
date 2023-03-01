@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/bkgr.png');
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.right{
+    display: inline-block;
+    width: 67%;
+    text-align: end;
+    margin: 20px auto;
+    /* border: 3px solid green; */
+}
+
+.left{
+    display: inline-block;
+    left: 20px;
+    margin: 7px 100px;
+    font-size: 21px;
+    /* border: 3px solid blue; */
+}
+.left img{
+    width: 30px;
+}
+.left ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    font-size: 17px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: red;
+}
+
+.content{
+    right: 170px;
+    float: right;
+    /* border: 3px solid red; */
+    margin-top: 7%;
+    position: relative;
+    /* margin-left: 950px; */
+}
+
+.formfield{
+    height: 30px;
+    width: 370px;
+    border-radius: 21px;
+    padding-left: 21px;
+    border: 1px solid red;
+}
+
+.btn{
+    margin-top: 21px;
+    margin-bottom: 11px;
+    height: 30px;
+    width: 101px;
+    border: 1px solid red;
+    border-radius: 21px;
+}
+
+.login a{
+    color: white;
+    font-size: 13px;
+}
+.login a:hover{
+    color: red;
+}
